@@ -1,3 +1,7 @@
+# r2dii.data 0.1.1
+
+* `naics_classification` now includes only 6-digit codes (@jdhoffa #103).
+
 # r2dii.data 0.1.0
 
 * r2dii.data is now [maturing](https://www.tidyverse.org/lifecycle/#maturing).
