@@ -24,6 +24,7 @@ test_that("defines the expected objects", {
     "ald_demo",
     "co2_intensity_scenario_demo",
     "data_dictionary",
+    "green_or_brown",
     "isic_classification",
     "iso_codes",
     "loanbook_demo",
@@ -32,8 +33,9 @@ test_that("defines the expected objects", {
     "overwrite_demo",
     "region_isos",
     "region_isos_demo",
+    "scenario_demo_2020",
     "sector_classifications",
-    "scenario_demo_2020"
+    "sic_classification"
   )
 
   expect_equal(sort(datasets), sort(expected_datasets))

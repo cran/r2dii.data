@@ -25,7 +25,15 @@ development and use of PACTA in R.
 
 ## Installation
 
-Install the released version of r2dii.data from CRAN with:
+Before you install r2dii.analysis you may want to:
+
+  - [Try an rstudio.cloud project with this package already
+    installed](https://rstudio.cloud/project/1424833).
+  - [Learn how to minimize installation
+    errors](https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#installation).
+
+When you are ready, install the released version of r2dii.data from CRAN
+with:
 
 ``` r
 install.packages("r2dii.data")
@@ -39,8 +47,8 @@ this:
 devtools::install_github("2DegreesInvesting/r2dii.data")
 ```
 
-[How to minimize installation
-errors?](https://gist.github.com/maurolepore/a0187be9d40aee95a43f20a85f4caed6#installation)
+[How to raise an
+issue?](https://2degreesinvesting.github.io/posts/2020-06-26-instructions-to-raise-an-issue/)
 
 ## Example
 
@@ -55,11 +63,11 @@ head(data_dictionary)
 #> 4 ald_demo          emission_factor    double
 #> 5 ald_demo is_ultimate_listed_owner   logical
 #> 6 ald_demo        is_ultimate_owner   logical
-#>                                               definition
-#> 1      The units that the emission factor is measured in
-#> 2      Date at which asset data was pulled from database
-#> 3                    Country where company is registered
-#> 4        Company level emission factor of the technology
-#> 5          Flag if company is the listed ultimate parent
-#> 6 Flag if company is the ultimate parent in our database
+#>                                                    definition
+#> 1           The units that the emission factor is measured in
+#> 2 Date at which asset data was sourced from the data provider
+#> 3                         Country where company is registered
+#> 4             Company level emission factor of the technology
+#> 5               Flag if company is the listed ultimate parent
+#> 6      Flag if company is the ultimate parent in our database
 ```
