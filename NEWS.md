@@ -1,3 +1,12 @@
+# r2dii.data 0.1.3
+
+* Change license to MIT.
+* The website's home page now acknowledges funders.
+* The website's home page now reports test coverage.
+* The "News" tab of the website now shows all releases to date.
+* Replace 'ton' and 'tons' with 'tonne' and 'tonnes' (#134).
+* Fix typos in columns definitions.
+
 # r2dii.data 0.1.2
 
 * `region_isos` no longer has duplicated rows (@jdhoffa #111).

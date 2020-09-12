@@ -12,6 +12,8 @@ status](https://www.r-pkg.org/badges/version/r2dii.data)](https://CRAN.R-project
 [![](https://cranlogs.r-pkg.org/badges/grand-total/r2dii.data)](https://CRAN.R-project.org/package=r2dii.data)
 [![R build
 status](https://github.com/2DegreesInvesting/r2dii.data/workflows/R-CMD-check/badge.svg)](https://github.com/2DegreesInvesting/r2dii.data/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/2DegreesInvesting/r2dii.data/branch/master/graph/badge.svg)](https://codecov.io/gh/2DegreesInvesting/r2dii.data?branch=master)
 <!-- badges: end -->
 
 These datasets support the implementation in R of the software PACTA
@@ -71,3 +73,16 @@ head(data_dictionary)
 #> 5               Flag if company is the listed ultimate parent
 #> 6      Flag if company is the ultimate parent in our database
 ```
+
+## Funding
+
+This project has received funding from the [European Union LIFE
+program](https://ec.europa.eu/easme/en/life) and the [International
+Climate Initiative
+(IKI)](https://www.international-climate-initiative.com/en/details/project/measuring-paris-agreement-alignment-and-financial-risk-in-financial-markets-18_I_351-2982).
+The Federal Ministry for the Environment, Nature Conservation and
+Nuclear Safety (BMU) supports this initiative on the basis of a decision
+adopted by the German Bundestag. The views expressed are the sole
+responsibility of the authors and do not necessarily reflect the views
+of the funders. The funders are not responsible for any use that may be
+made of the information it contains.
