@@ -11,14 +11,14 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 isic_classification
 }
 \description{
-These dataset serve as a translation key between common sector-classification
+This dataset serves as a translation key between common sector-classification
 systems and sectors relevant to the 'PACTA' tool
 (\url{https://2degrees-investing.org/resource/pacta/}).
 }
 \section{Definitions}{
 
 \itemize{
-\item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match.
+\item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope..
 \item \code{code} (character): Original ISIC code.
 \item \code{code_level} (double): Level of granularity of ISIC code.
 \item \code{sector} (character): Associated 2dii sector.
@@ -39,6 +39,7 @@ head(isic_classification)
 \link{data_dictionary}.
 
 Other datasets for bridging sector classification codes: 
+\code{\link{gics_classification}},
 \code{\link{nace_classification}},
 \code{\link{naics_classification}},
 \code{\link{sector_classifications}},

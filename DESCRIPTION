@@ -1,6 +1,6 @@
 Package: r2dii.data
 Title: Datasets to Align Financial Markets with Climate Goals
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: 
     c(person(given = "Mauro",
              family = "Lepore",
@@ -28,7 +28,7 @@ Description: These datasets support the implementation in R of
     and market data providers keep their data private, this package
     provides fake, public data to enable the development and use of
     'PACTA' in R.
-License: MIT + file LICENSE
+License: CC0
 URL: https://2degreesinvesting.github.io/r2dii.data/,
         https://github.com/2DegreesInvesting/r2dii.data
 BugReports: https://github.com/2DegreesInvesting/r2dii.data/issues
@@ -39,11 +39,11 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2020-09-11 17:58:30 UTC; mauro
+Packaged: 2020-10-08 15:56:14 UTC; mauro
 Author: Mauro Lepore [aut, cre, ctr] (<https://orcid.org/0000-0002-1986-7988>),
   Jackson Hoffart [aut, dtc] (<https://orcid.org/0000-0002-8600-5042>),
   Klaus Hagedorn [aut],
   2 Degrees Investing Initiative [cph, fnd]
 Maintainer: Mauro Lepore <maurolepore@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-09-12 05:50:21 UTC
+Date/Publication: 2020-10-08 16:30:03 UTC
