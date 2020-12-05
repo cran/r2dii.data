@@ -1,13 +1,5 @@
 test_that("hasn't changed", {
-  expect_known_value(
-    data_dictionary, "ref-data_dictionary",
-    update = FALSE
-  )
-})
-
-test_that("is not different compared to reference", {
-  reference <- readRDS(test_path("ref-data_dictionary"))
-  expect_identical(data_dictionary, reference)
+  expect_snapshot_value(data_dictionary, style = "json2")
 })
 
 test_that("has the expected names", {
@@ -22,6 +14,7 @@ test_that("defines the expected objects", {
 
   expected_datasets <- c(
     "ald_demo",
+    "cnb_classification",
     "co2_intensity_scenario_demo",
     "data_dictionary",
     "gics_classification",
