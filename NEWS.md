@@ -1,3 +1,9 @@
+# r2dii.data 0.1.7
+
+* Add heavy-duty vehicles to `green_or_brown`, `loanbook_demo`, and `ald_demo`
+(@vintented #131).
+* New dataset `psic_classification` (@daisy-pacheco #199).
+
 # r2dii.data 0.1.6
 
 * `region_isos` now correctly maps Kosovo iso to "xk" (@cjyetman #186).
@@ -37,7 +43,7 @@
 
 # r2dii.data 0.1.0
 
-* r2dii.data is now [maturing](https://www.tidyverse.org/lifecycle/#maturing).
+* r2dii.data is now [maturing](https://lifecycle.r-lib.org/articles/stages.html).
 * `naics_classification` now includes correct data (@QianFeng2020 #85; @maurolepore #94).
 * `region_isos` now includes a "global" `region` (@jdhoffa #52).
 * `region_isos` gains the column `source` and updates from WEO2019 (@jdhoffa #50).
