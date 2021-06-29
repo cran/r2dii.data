@@ -1,7 +1,19 @@
+# r2dii.data 0.2.0
+
+* `ald_demo` and `scenario_demo_2020` gain rows of dummy data for the `hdv`
+(heavy-duty vehicle) sector (#231).
+* `ald_demo` gains the column `lei`and loses the column
+`is_ultimate_listed_owner`. Also the column `id_company` becomes `company_id`
+and `ald_emission_factor_unit` becomes `emission_factor_unit` (#233).
+* In `ald_demo`, the column `id_company` is now unique for each `name_company`
+and `sector` pair (#232).
+* In all sector classification datasets, the column `code` is now consistently
+of type "character".
+
 # r2dii.data 0.1.9
 
 * In `sector_classifications` and `psic_classification`, all values of `sector`
-are now lowercase (#222 daisy-pacheco).
+  are now lowercase (#222 daisy-pacheco).
 
 # r2dii.data 0.1.8
 
@@ -59,7 +71,8 @@ are now lowercase (#222 daisy-pacheco).
 * r2dii.data is now [maturing](https://lifecycle.r-lib.org/articles/stages.html).
 * `naics_classification` now includes correct data (@QianFeng2020 #85; @maurolepore #94).
 * `region_isos` now includes a "global" `region` (@jdhoffa #52).
-* `region_isos` gains the column `source` and updates from WEO2019 (@jdhoffa #50).
+* `region_isos` gains the column `source` and updates from WEO2019 (@jdhoffa
+  #50).
 * `ald_demo` gains the column `ald_emission_factor_unit` (#71).
 * New dataset `co2_intensity_scenario_demo` (@jdhoffa #83).
 * New dataset `region_isos_demo` (#60).
