@@ -1,6 +1,6 @@
-463ed7c96ec277ed47d6b60c1942e83d *DESCRIPTION
+a8d772bf0ceba4c57436ce1b231502bc *DESCRIPTION
 dc21c19f0d6968ee25d441b2cf46017d *NAMESPACE
-e232cce4f689ecc63304b4fdb183a0e3 *NEWS.md
+e389ee60e858b251860b129c8e18863d *NEWS.md
 91b5a7497411f2a6ef24e572a6c5d157 *R/ald_demo.R
 e7d662902da564511c697717b1fb6ac6 *R/classification_bridge.R
 c25cd5feb03cc9968f2523e44b12bb68 *R/co2_intensity_scenario_demo.R
@@ -15,7 +15,7 @@ ee4e797782d7abc71332f46a27bb7fb8 *R/region_isos_demo.R
 14bcbc1d812decd868e5e6c87428ab3c *R/scenario_demo_2020.R
 930556aafc3faeb6ba7dc41436737b71 *R/sector_classifications.R
 55a0ec84180554354ec62203b63a6028 *R/utils.R
-6068e6d1d20b1964b41c06581fbf847b *README.md
+6cef924786060af1182b2223a721286a *README.md
 03574bb88278b34f8f1bb25ad44b5844 *data/ald_demo.rda
 1226fd11d7b01c784173fff531d94729 *data/cnb_classification.rda
 6e8eb715a8416f3a5eb7f12ad2a0222f *data/co2_intensity_scenario_demo.rda
@@ -29,7 +29,7 @@ d8e3d1bd1c9083ca80006f32a9051a5c *data/iso_codes.rda
 e9a171809577e186302fb1c22d61c57c *data/naics_classification.rda
 40a2cd636aecfb0d40b729a5ab914093 *data/overwrite_demo.rda
 7054a0803a28633e5aaa33bbd97b18be *data/psic_classification.rda
-bd6166ec232bbdc6bcc8dd0b1f117eb7 *data/region_isos.rda
+6968958c156b5bcbbd7fdca69f16e24a *data/region_isos.rda
 0f951594ee7d3834d117492cf4ea27c4 *data/region_isos_demo.rda
 f5cab8c56b2e1e5d6f38ff6d5c58cdfe *data/scenario_demo_2020.rda
 a4555ce7b4b676e883592de33d800827 *data/sector_classifications.rda
@@ -49,7 +49,7 @@ f0a340755a124fc251a3cb48a3fd6915 *man/naics_classification.Rd
 d2f7eb6d54d45ff8044dd117b0d1c642 *man/overwrite_demo.Rd
 ada90eb8d376a470935296fd9773daab *man/psic_classification.Rd
 7057865fec805d457847ea73ec3a86a1 *man/r2dii.data-package.Rd
-3bae499b40b134ab3a7cf034e7ab5598 *man/region_isos.Rd
+56857c10bf36434f1689832be6a1ba37 *man/region_isos.Rd
 48be91c9b8d8df41fe8fd4510c58ac37 *man/region_isos_demo.Rd
 143be7a08d57a512909599505e8ae06d *man/scenario_demo_2020.Rd
 723a938a8c78938823ca7b6661f93446 *man/sector_classifications.Rd
@@ -62,7 +62,7 @@ ada90eb8d376a470935296fd9773daab *man/psic_classification.Rd
 3eee1a438840419beda2fdc18f96dfa1 *tests/testthat/_snaps/iso_codes.md
 3ed68b11cba20f4fa98a321d2ff9861e *tests/testthat/_snaps/loanbook_demo.md
 55884798c8f002c8f141935b70857791 *tests/testthat/_snaps/overwrite_demo.md
-e27c71edaa0286eca07d4a9605005cf4 *tests/testthat/_snaps/region_isos.md
+1e4bbefd7a2692ab5188ce36265190a9 *tests/testthat/_snaps/region_isos.md
 ac1fec9e7a511516f11b6346808c0b57 *tests/testthat/_snaps/region_isos_demo.md
 f7122a554ae00dbc76cda6f8381d8b39 *tests/testthat/_snaps/scenario_demo_2020.md
 54ddcaef7a748c61dcf3c9b2a6eb4ce0 *tests/testthat/_snaps/sector_classifications.md
@@ -77,7 +77,7 @@ d6446bdc700167cfb5c6f4c0303618a7 *tests/testthat/test-iso_codes.R
 240075c732faf5da324e9539e5057950 *tests/testthat/test-loanbook_demo.R
 fd4666f2ce549ea057b01d5c3cdb9401 *tests/testthat/test-overwrite_demo.R
 14726679564c0ea1350a3ec629deea17 *tests/testthat/test-psic_classification.R
-3f8292a47850441ce72416f78157076f *tests/testthat/test-region_isos.R
+df4a05916b6b554f5129ce83e3526c66 *tests/testthat/test-region_isos.R
 b4d110e4e8dadd3969b9b15c97126e7d *tests/testthat/test-region_isos_demo.R
 7a595e838f59daa3ba5341d1828a5b53 *tests/testthat/test-scenario_demo_2020.R
 8bbf34256a4cca80b75de47f62253da1 *tests/testthat/test-sector_classifications.R
