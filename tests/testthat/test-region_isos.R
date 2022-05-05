@@ -12,7 +12,11 @@ test_that("outputs regions for expected scenario sources", {
     "etp_2017",
     "weo_2020",
     "isf_2020",
-    "nze_2021"
+    "nze_2021",
+    "geco_2020",
+    "geco_2021",
+    "etp_2020",
+    "weo_2021"
   )
 
   expect_equal(
@@ -48,7 +52,13 @@ test_that("outputs expected regions for weo_2020 (#253).", {
     "developing economies",
     "iea",
     "non oecd",
-    "non opec"
+    "non opec",
+    "brazil",
+    "india",
+    "japan",
+    "russia",
+    "south africa",
+    "united states"
   )
 
   region_isos_weo_2020 <- region_isos[region_isos$source == "weo_2020", ]
@@ -79,5 +89,25 @@ test_that("outputs expected regions for isf_2020 (#253).", {
   expect_equal(
     sort(unique(region_isos_isf_2020$region)),
     sort(expected_regions)
+  )
+})
+
+
+test_that("outputs expected '1-country-regions' for weo_2019 (#271).", {
+  country_regions_weo_2019 <- c(
+    "brazil",
+    "india",
+    "japan",
+    "russia",
+    "south africa",
+    "united states"
+  )
+
+  expect_equal(
+    setdiff(
+      country_regions_weo_2019,
+      region_isos[region_isos$source == "weo_2019", ][["region"]]
+    ),
+    character(0)
   )
 })

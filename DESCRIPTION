@@ -1,25 +1,15 @@
 Package: r2dii.data
 Title: Datasets to Measure the Alignment of Corporate Loan Books with
         Climate Goals
-Version: 0.2.2
-Authors@R: 
-    c(person(given = "Mauro",
-             family = "Lepore",
-             role = c("aut", "cre", "ctr"),
-             email = "maurolepore@gmail.com",
-             comment = c(ORCID = "0000-0002-1986-7988")),
-      person(given = "Jackson",
-             family = "Hoffart",
-             role = c("aut", "dtc"),
-             email = "jackson@2degrees-investing.org",
-             comment = c(ORCID = "0000-0002-8600-5042")),
-      person(given = "Klaus",
-             family = "Hagedorn",
-             role = "aut",
-             email = "klaus@2degrees-investing.org"),
-      person(given = "2 Degrees Investing Initiative",
-             role = c("cph", "fnd"),
-             email = "contact@2degrees-investing.org"))
+Version: 0.3.0
+Authors@R: c(
+    person("Jackson", "Hoffart", , "jackson.hoffart@gmail.com", role = c("aut", "cre", "dtc"),
+           comment = c(ORCID = "0000-0002-8600-5042")),
+    person("Mauro", "Lepore", , "maurolepore@gmail.com", role = c("aut", "ctr"),
+           comment = c(ORCID = "0000-0002-1986-7988")),
+    person("Klaus", "Hagedorn", , "klaus@2degrees-investing.org", role = "aut"),
+    person("2 Degrees Investing Initiative", , , "contact@2degrees-investing.org", role = c("cph", "fnd"))
+  )
 Description: These datasets support the implementation in R of the
     software 'PACTA' (Paris Agreement Capital Transition Assessment),
     which is a free tool that calculates the alignment between corporate
@@ -31,22 +21,24 @@ Description: These datasets support the implementation in R of the
     provides fake, public data to enable the development and use of
     'PACTA' in R.
 License: CC0
-URL: https://2degreesinvesting.github.io/r2dii.data/,
-        https://github.com/2DegreesInvesting/r2dii.data
+URL: https://2degreesinvesting.github.io/r2dii.data//,
+        https://github.com/2DegreesInvesting/r2dii.data,
+        https://2degreesinvesting.github.io/r2dii.data/
 BugReports: https://github.com/2DegreesInvesting/r2dii.data/issues
 Depends: R (>= 3.4)
-Imports: stats, utils
+Imports: lifecycle, stats, utils
 Suggests: covr, rlang, rmarkdown, testthat (>= 2.1.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 NeedsCompilation: no
-Packaged: 2021-09-03 16:53:43 UTC; mauro
-Author: Mauro Lepore [aut, cre, ctr] (<https://orcid.org/0000-0002-1986-7988>),
-  Jackson Hoffart [aut, dtc] (<https://orcid.org/0000-0002-8600-5042>),
+Packaged: 2022-05-04 15:44:01 UTC; jdhoffa
+Author: Jackson Hoffart [aut, cre, dtc]
+    (<https://orcid.org/0000-0002-8600-5042>),
+  Mauro Lepore [aut, ctr] (<https://orcid.org/0000-0002-1986-7988>),
   Klaus Hagedorn [aut],
   2 Degrees Investing Initiative [cph, fnd]
-Maintainer: Mauro Lepore <maurolepore@gmail.com>
+Maintainer: Jackson Hoffart <jackson.hoffart@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-09-03 17:50:02 UTC
+Date/Publication: 2022-05-05 06:50:02 UTC
