@@ -1,3 +1,8 @@
+# r2dii.data 0.4.0
+
+* New dataset `increasing_or_decreasing` supersedes the dataset 
+`green_or_brown` (#307).
+
 # r2dii.data 0.3.1
 
 * `r2dii.data` has transferred to a new organization: 
