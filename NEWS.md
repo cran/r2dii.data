@@ -1,3 +1,8 @@
+# r2dii.data 0.4.1
+
+* Fix of the demo data sets.
+* abcd_demo and loanbook_demo now use faked company names.
+
 # r2dii.data 0.4.0
 
 * New dataset `increasing_or_decreasing` supersedes the dataset 
