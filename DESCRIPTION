@@ -1,7 +1,7 @@
 Package: r2dii.data
 Title: Datasets to Measure the Alignment of Corporate Loan Books with
         Climate Goals
-Version: 0.4.1
+Version: 0.5.0
 Authors@R: c(
     person("Alex", "Axthelm", , "aaxthelm@rmi.org", role = c("aut", "cre", "dtc"),
             comment = c(ORCID = "0000-0001-8579-8565")),
@@ -30,11 +30,12 @@ Imports: lifecycle, stats, utils
 Suggests: charlatan, covr, readr, rlang, rmarkdown, stringi, testthat
         (>= 2.1.0)
 Config/testthat/edition: 3
+Config/Needs/website: rmi-pacta/pacta.pkgdown.rmitemplate
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 NeedsCompilation: no
-Packaged: 2023-11-13 16:28:19 UTC; aaxthelm
+Packaged: 2024-03-25 15:00:48 UTC; jdhoffa
 Author: Alex Axthelm [aut, cre, dtc] (<https://orcid.org/0000-0001-8579-8565>),
   Jackson Hoffart [aut, ctr, dtc]
     (<https://orcid.org/0000-0002-8600-5042>),
@@ -42,4 +43,4 @@ Author: Alex Axthelm [aut, cre, dtc] (<https://orcid.org/0000-0001-8579-8565>),
   Rocky Mountain Institute [cph, fnd]
 Maintainer: Alex Axthelm <aaxthelm@rmi.org>
 Repository: CRAN
-Date/Publication: 2023-11-13 17:23:20 UTC
+Date/Publication: 2024-03-25 21:40:15 UTC

@@ -18,7 +18,7 @@ systems and sectors relevant to the 'PACTA' tool
 \section{Definitions}{
 
 \itemize{
-\item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.., * \code{code} (character): Formatted psic_classification code., * \code{code_level} (double): Level of granularity of psic_classification code., * \code{original_code} (character): Original psic_classification sector name., * \code{sector} (character): Associated 2dii sector.
+\item \code{borderline} (logical): Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.., * \code{code} (character): Formatted PSIC classification code., * \code{description} (character): Original PSIC classification sector name., * \code{sector} (character): Associated PACTA sector., * \code{version} (character): Column identifying which year the classification was published in..
 }
 }
 
@@ -36,7 +36,6 @@ head(psic_classification)
 \link{data_dictionary}.
 
 Other datasets for bridging sector classification codes: 
-\code{\link{cnb_classification}},
 \code{\link{gics_classification}},
 \code{\link{isic_classification}},
 \code{\link{nace_classification}},

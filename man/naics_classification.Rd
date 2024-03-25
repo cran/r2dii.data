@@ -5,7 +5,7 @@
 \alias{naics_classification}
 \title{Dataset to bridge (translate) common sector-classification codes}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1057 rows and 4 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2125 rows and 5 columns.
 }
 \usage{
 naics_classification
@@ -18,7 +18,7 @@ systems and sectors relevant to the 'PACTA' tool
 \section{Definitions}{
 
 \itemize{
-\item \code{borderline} (logical): Flag indicating if 2dii sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the 2dii sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of 2dii's scope.., * \code{code} (character): Six-digit NAICS code., * \code{naics_title} (character): Original NAICS sector title., * \code{sector} (character): Associated 2dii sector.
+\item \code{borderline} (logical): Flag indicating if PACTA sector and classification code are a borderline match. The value TRUE indicates that the match is uncertain between the PACTA sector and the classification. The value FALSE indicates that the match is certainly perfect or the classification is certainly out of PACTA's scope.., * \code{code} (character): Six-digit NAICS code., * \code{description} (character): Original NAICS sector title., * \code{sector} (character): Associated PACTA sector., * \code{version} (character): Column identifying which year the classification was published in..
 }
 }
 
@@ -36,7 +36,6 @@ head(naics_classification)
 \link{data_dictionary}.
 
 Other datasets for bridging sector classification codes: 
-\code{\link{cnb_classification}},
 \code{\link{gics_classification}},
 \code{\link{isic_classification}},
 \code{\link{nace_classification}},
